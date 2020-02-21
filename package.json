@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer_ek",
+  "version": "1.0.0",
+  "description": "Automated testing for EK",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --timeout=30000"
+  },
+  "author": "LauriL",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jest": "^25.1.0",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  }
+}
